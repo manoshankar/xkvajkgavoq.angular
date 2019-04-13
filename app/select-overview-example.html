@@ -1,0 +1,16 @@
+<div style="width:100px;">
+<mat-form-field appearance="outline" style="margin-left:15px;width:60px;">
+  <mat-label >Seat</mat-label>
+  <mat-select style="width:70px;">
+    <mat-option *ngFor="let food of foods" [value]="food.value">
+      {{food.viewValue}}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+</div>
+
+
+<!-- Copyright 2019 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->
